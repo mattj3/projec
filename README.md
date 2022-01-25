@@ -1,3 +1,3 @@
 # projec
 
-Welcome to my collection of projects.
+Welcome to my collection of documentation based projects.
