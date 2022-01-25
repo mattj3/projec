@@ -54,9 +54,9 @@
 11. For “PC name” use either the Public IPv4 address (located in the AWS console → EC2 → click your instance → click “Details” tab) or the Public IPv4 DNS. 
     - Note: The script above configures port 3390. Be sure to add the port to the end of the IP Address/DNS. Ex. ec2-x-xx-xx-xx.compute-1.amazonaws.com:3390 
 12. For the “User account” dropdown, click the “Add Use Account...” option
-    a. Username: `kali`
-    b. Password: `whateveryouchangedthepasswordto`
-    c. Click “Add”
+    1.  Username: `kali`
+    2.  Password: `whateveryouchangedthepasswordto`
+    3.  Click “Add”
 13. Click “Add” once more at the bottom of the Add PC modal
 14. Lastly, double click on the newly created tile and verify you are able to remote in to your newly created EC2 instance. 
     - Note: If you are using an instance smaller than the recommend, it may take a little while for things to load. Also, if you attempt to open the browser with a T2.micro, it will most likely brick the instance.
